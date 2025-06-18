@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: lwweb
-  name: lwweb
+    app: drax16
+  name: drax_app
 spec:
   replicas: 8
   selector:
     matchLabels:
-      app: lwweb
+      app: drax16
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: lwweb
+        app: drax16
     spec:
       containers:
       - image: vimal13/apache-webserver-php
