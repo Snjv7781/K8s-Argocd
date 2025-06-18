@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: drax16
-  name: drax_app
+  name: draxapp
 spec:
   replicas: 8
   selector:
