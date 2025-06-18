@@ -9,13 +9,13 @@ spec:
   replicas: 8
   selector:
     matchLabels:
-      app: drax_app
+      app: drax16
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: drax_app
+        app: drax16
     spec:
       containers:
       - image: vimal13/apache-webserver-php
